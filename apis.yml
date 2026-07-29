@@ -1,8 +1,18 @@
 aid: jetty
 name: Jetty
-description: 'Jetty is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: insurtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Jetty is a financial-services company built for the real estate industry,
+  making renting more accessible and affordable for renters while helping
+  property managers reduce risk and bad debt. Following its merger with Rhino,
+  Jetty operates across more than 6 million rental units in the United States
+  and offers three core products: Jetty Deposit, a security-deposit replacement
+  that swaps large cash deposits for a low monthly or one-time payment; Jetty
+  Protect, integrated renters insurance and liability coverage; and Jetty
+  Credit, a rent-reporting and credit-building service that helps renters
+  establish credit history while lowering delinquencies for property managers.
+  Jetty is backed by Ribbit Capital. No public developer/API surface is
+  currently published; this profile is maintained in the API Evangelist network
+  as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/jetty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Insurtech
+- Renters Insurance
+- Security Deposit
+- Real Estate
+- PropTech
+- Fintech
+- Credit Building
+image: https://assets.jetty.com/1631113925-how-we-re-building-the-financial-services-platform-for-real-estate.png?auto=format&fit=max&w=1200
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.jetty.com
+- type: About
+  url: https://www.jetty.com/about
+- type: Blog
+  url: https://www.jetty.com/blog
+- type: Support
+  url: https://jettyplusrhino.zendesk.com/hc/en-us
+- type: HelpCenter
+  url: https://jettyplusrhinospartners.zendesk.com/hc/en-us/
+- type: TermsOfService
+  url: https://www.jetty.com/terms
+- type: PrivacyPolicy
+  url: https://www.jetty.com/privacy
+- type: DomainSecurity
+  url: security/jetty-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
