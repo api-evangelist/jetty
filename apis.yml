@@ -50,7 +50,7 @@ tags:
 - Insurtech
 - Renters Insurance
 - Security Deposit
-- Real-Estate
+- Real Estate
 - PropTech
 - Fintech
 - Credit Building
@@ -63,6 +63,7 @@ tags_raw:
 - PropTech
 - Fintech
 - Credit Building
+- Real-Estate
 image: https://assets.jetty.com/1631113925-how-we-re-building-the-financial-services-platform-for-real-estate.png?auto=format&fit=max&w=1200
 apis: []
 maintainers:
